@@ -18,6 +18,18 @@ This file contains a dictionary of the Myposian language.
 | `type` | `word/expression`, `long text`, or `proper noun` |
 
 
+### Experiments 
+
+- [experiments/langid_experiment.py](experiments/langid_experiment.py)
+
+  This file contains code that seeks to identify Myposian dictionary entries as one of the languages supported by the Python tool langid.
+
+- [experiments/classifier_experiment.py](experiments/classifier_experiment.py)
+
+This file contains code to train a simple word-based classification model on several relevant languages and verify which one of them Myposian words will me classified as. 
+
+
+
 ## Sources
 
 The dictionary was compiled from:
